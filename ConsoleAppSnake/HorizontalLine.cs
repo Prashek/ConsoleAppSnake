@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CSharpArsenManukjanSnake;
 
-namespace CSharpArsenManukjanSnake
+namespace ConsoleAppSnake
 {
     class HorizontalLine
     {
