@@ -56,6 +56,7 @@ namespace ConsoleAppSnake
                 }
             }
         }
+<<<<<<< HEAD
         public bool Eat(Point food)
         {
             Point head = GetNextPoint();
@@ -82,5 +83,7 @@ namespace ConsoleAppSnake
             }
             return false;
         }
+=======
+>>>>>>> 3739da9b997b84e7cb357239cb9f1a7c1d406522
     }
 }
