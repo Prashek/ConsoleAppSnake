@@ -8,13 +8,18 @@ namespace ConsoleAppSnake
     {
         protected List<Point> pList;
 
+<<<<<<< HEAD
         public void Draw()
+=======
+        public new void Draw()
+>>>>>>> 3739da9b997b84e7cb357239cb9f1a7c1d406522
         {
             foreach (Point p in pList)
             {
                 p.Draw();
             }
         }
+<<<<<<< HEAD
         internal bool IsHit(Figure figure)
         {
             foreach (Point p in pList)
@@ -37,5 +42,7 @@ namespace ConsoleAppSnake
             }
             return false;
         }
+=======
+>>>>>>> 3739da9b997b84e7cb357239cb9f1a7c1d406522
     }
 }
